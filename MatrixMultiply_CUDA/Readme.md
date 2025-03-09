@@ -4,6 +4,16 @@
 
 - matrixes are hardcoded into .cu file in order to change it you can edit `matrix_multiply.cu` file.
 
+```cpp
+    int M = 3;  // Rows in A and C
+    int N = 3;  // Columns in A and Rows in B
+    int P = 3;  // Columns in B and C
+
+    int A[M * N] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int B[N * P] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int C[M * P]; // Result matrix
+```
+
 ### How to Compile and Run:
 
 To compile and run this CUDA program, you need to have NVIDIA's CUDA toolkit installed and a compatible GPU. Here are the steps:
