@@ -1,5 +1,9 @@
 # Matrix multiplication is critical for language models. this code simulates the MM.
 
+## info:
+
+- matrixes are hardcoded into .cu file in order to change it you can edit `matrix_multiply.cu` file.
+
 ### How to Compile and Run:
 
 To compile and run this CUDA program, you need to have NVIDIA's CUDA toolkit installed and a compatible GPU. Here are the steps:
